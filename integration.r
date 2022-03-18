@@ -4,7 +4,6 @@ dev.off()
 library(geomorph)
 library(plyr)
 
-setwd("C:/Users/Adri/OneDrive - Universitat de Barcelona/GMM Antigoni/Paper2")
 load("data_p4.bin")
 
 spec.sel <- all.data$specs
