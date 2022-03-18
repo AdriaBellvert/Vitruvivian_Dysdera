@@ -3,7 +3,6 @@
 ### Functions for calculating PC axis for individuals, and group means,
 # calculating their angle, and then running a randomization test to compare them.
 
-setwd("C:/Users/Adri/OneDrive - Universitat de Barcelona/GMM Antigoni/Paper2/plots_FEB2022")
 pc.angle <- function(x, gr, pc){
   group <- list(gr)
   # Observed means, pcs, and angles
